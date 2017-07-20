@@ -10,6 +10,9 @@ var mainView = myApp.addView('.view-main', {
     // Because we want to use dynamic navbar, we need to enable it for this view:
     dynamicNavbar: true
 });
+  $$('.panel-close').on('click', function (e) {
+        myApp.closePanel();
+    });
 
 // Handle Cordova Device Ready Event
 $$(document).on('deviceready', function() {

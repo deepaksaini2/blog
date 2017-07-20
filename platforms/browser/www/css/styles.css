@@ -21,7 +21,7 @@
 
 body{
 	color: #fff !important;
-	font-family: Roboto,"Helvetica Neue",sans-serif !important;
+	    font-family: -webkit-bodys !important;
 }
 .sidebar-menu .menu-item {
     background-color: transparent;
@@ -44,7 +44,6 @@ body{
 .top-header-image {
     background-image: url(/assets/img/news-icon.jpg);
     background-color: #29ccd2;
-    height: 100px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -216,4 +215,31 @@ ul>.item-block:first-child {
 .logo-img{
 
     margin-top: 60%;
+}
+.sidebar-menu .menu-item:hover {
+    background: #e6971c;
+}
+.bar-button-clear-md-default:hover:not(.disable-hover), .bar-button-default-md:hover:not(.disable-hover), .bar-button-md-default:hover:not(.disable-hover) {
+    color: rgb(244, 244, 244) !important;
+}
+.toolbar-background {
+    background: #ffffff!important;
+    box-shadow: 0px 3px 0px rgba(150, 19, 19, 0.6);
+}
+.bar-button-clear-default, .bar-button-default {
+    color: #000 !important;
+    background-color: transparent;
+}
+.center.sliding {
+    left: -138.5px;
+    transform: translate3d(0px, 0px, 0px);
+    color: #000;
+    font-family: inherit;
+}
+.item-md {
+    font-size: 14px;
+}
+
+.item-icon {
+    font-size: 22px !important;
 }
