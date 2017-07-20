@@ -53,12 +53,20 @@
                                 <a href="home.html"><img src="assets/img/gst-logo2-3.png" style="height: 62px;"></a>
                                 </div></div>
         </div> 
-         
-        <div class="content-block" style="margin:0px;padding: 0px;">
+        <div class="row">
+            <div class="col-40">
+                <img class="user-img" src="assets/img/profile.jpg">
+            </div>
+            <div class="col-60">
+                <p class="user-name">GST</p>
+            </div>
+        </div> 
+        <div class="content-block">
           <a href="index.html">
-           <button class="menu-item item item-block item-md panel-close" ion-item="" menuclose="">
+           <button class="menu-item item item-block item-md" ion-item="" menuclose="">
 
-                   <ion-icon item-left="" name="home" role="img" class="icon icon-md ion-md-home item-icon" aria-label="home"></ion-icon>
+                   <i item-left="" name="home" role="img" class="icon icon-md ion-md-home item-icon" aria-label="home">
+                   </i>
                    <div class="item-inner">
                        <div class="input-wrapper"><!---->
                            <ion-label class="label label-md">
@@ -70,7 +78,7 @@
             </button>
             </a>
             <a href="about-gst.html">
-             <button class="menu-item item item-block item-md panel-close" ion-item="" menuclose="">
+             <button class="menu-item item item-block item-md" ion-item="" menuclose="">
                    <ion-icon item-left="" name="home" role="img" class="icon icon-md ion-md-bookmark item-icon" aria-label="home">
                    </ion-icon>
                    <div class="item-inner">
@@ -86,7 +94,7 @@
             </button>
             </a>
              <a href="our-services.html">
-             <button class="menu-item item item-block item-md panel-close" ion-item="" menuclose="">
+             <button class="menu-item item item-block item-md" ion-item="" menuclose="">
                    <ion-icon item-left="" name="home" role="img" class="icon icon-md ion-md-apps item-icon" aria-label="home">
                    </ion-icon>
                    <div class="item-inner">
@@ -100,7 +108,7 @@
                     <div class="button-effect"></div>
             </button></a>
             <a href="gst-low.html">
-             <button class="menu-item item item-block item-md panel-close" ion-item="" menuclose="">
+             <button class="menu-item item item-block item-md" ion-item="" menuclose="">
                    <ion-icon item-left="" name="home" role="img" class="icon icon-md ion-md-person item-icon" aria-label="home">
                    </ion-icon>
                    <div class="item-inner">
@@ -114,7 +122,7 @@
                     </div>
                     <div class="button-effect"></div>
             </button></a>
-            <a href="blog-setting.html"><button class="menu-item item item-block item-md panel-close" ion-item="" menuclose="">
+            <a href="blog-setting.html"><button class="menu-item item item-block item-md" ion-item="" menuclose="">
                    <ion-icon item-left="" name="home" role="img" class="icon icon-md ion-md-settings item-icon" aria-label="home">
                    </ion-icon>
                    <div class="item-inner">
@@ -127,7 +135,7 @@
                     </div>
                     <div class="button-effect"></div>
             </button></a>
-             <a href="blog-contact.html"><button class="menu-item item item-block item-md panel-close" ion-item="" menuclose="">
+             <a href="blog-contact.html"><button class="menu-item item item-block item-md" ion-item="" menuclose="">
                    <ion-icon item-left="" name="home" role="img" class="icon icon-md ion-md-contacts item-icon" aria-label="home">
                    </ion-icon>
                    <div class="item-inner">
@@ -141,7 +149,7 @@
                     </div>
                     <div class="button-effect"></div>
             </button></a>
-             <button class="menu-item item item-block item-md panel-close" ion-item="" menuclose="">
+             <button class="menu-item item item-block item-md" ion-item="" menuclose="">
                    <ion-icon item-left="" name="home" role="img" class="icon icon-md ion-md-contacts item-icon" aria-label="home">
                    </ion-icon>
                    <div class="item-inner">
@@ -155,7 +163,7 @@
                     </div>
                     <div class="button-effect"></div>
             </button>
-            <button class="menu-item item item-block item-md panel-close" ion-item="" menuclose="">
+            <button class="menu-item item item-block item-md" ion-item="" menuclose="">
                    <ion-icon item-left="" name="home" role="img" class="icon icon-md ion-md-log-out item-icon" aria-label="home">
                    </ion-icon>
                    <div class="item-inner">
@@ -169,7 +177,7 @@
                     </div>
                     <div class="button-effect"></div>
             </button>
-            <button class="menu-item item item-block item-md panel-close" ion-item="" menuclose="">
+            <button class="menu-item item item-block item-md" ion-item="" menuclose="">
                    <ion-icon item-left="" name="home" role="img" class="icon icon-md ion-md-log-out item-icon" aria-label="home">
                    </ion-icon>
                    <div class="item-inner">
@@ -183,7 +191,7 @@
                     </div>
                     <div class="button-effect"></div>
             </button>
-            <button class="menu-item item item-block item-md panel-close" ion-item="" menuclose="">
+            <button class="menu-item item item-block item-md" ion-item="" menuclose="">
                    <ion-icon item-left="" name="home" role="img" class="icon icon-md ion-md-log-out item-icon" aria-label="home">
                    </ion-icon>
                    <div class="item-inner">
@@ -208,14 +216,12 @@
             <div class="navbar">
             <div class="toolbar-background toolbar-background-md"></div>
                 <div class="navbar-inner">
-                <div class="left">
+                <div class="right">
                         <!--
                           Right link contains only icon - additional "icon-only" class
                           Additional "open-panel" class tells app to open panel when we click on this link
                         -->
-                        <a href="#" class="link icon-only open-panel"><button ion-button="" menutoggle="" class="bar-buttons bar-buttons-md bar-button bar-button-md bar-button-default bar-button-default-md bar-button-menutoggle bar-button-menutoggle-md"><span class="button-inner">
-      <ion-icon name="menu" role="img" class="icon icon-md ion-md-menu" aria-label="menu"></ion-icon>
-    </span><div class="button-effect" style="transform: translate3d(-10px, -19px, 0px) scale(1); height: 64px; width: 64px; opacity: 0; transition: transform 273ms, opacity 191ms 82ms;"></div></button></a>
+                        <a href="#" class="link icon-only open-panel"><i class="icon icon-bars"></i></a>
                     </div>
                     <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
                     <div class="center sliding">Blog App</div>
@@ -225,165 +231,13 @@
             <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
             <div class="pages">
                 <div data-page="about" class="page">
-                    <div class="page-content bg content content-md">
+                   <div class="page-content" style="background: #ffffff;">
+                        <div class="row logo-img">
 
-
-
-                    
-                        <div class="content-block" style="margin-top: 0px; ">
-                                <div class="card demo-card-header-pic">
-                                 <a href="blog-detail.html">
-                                     <div style="background-image:url(assets/img/news8.jpg);box-shadow: 0 1px 2px rgba(0,0,0,.3);" valign="bottom" class="card-header color-white no-border">
-                                      <span class="badge">SCI - TECH</span>
-                                      <span class="time"><ion-icon ios="ios-time" md="md-time" role="img" class="icon icon-md ion-md-time" aria-label="time"></ion-icon>06/09/2017</span>
-                                      </div>
-                                  </a>
-                                  <div class="card-content blog-content">
-                                    <div class="">
-                                      <div class="row">
-                                        <div class="col-80">
-                                            <p class="blog-short">Apple ‘HomePod’ speaker to take on Amazon, Google</p>
-                                        </div>
-                                        <div class="col-20"> <ion-icon class="bookmark icon icon-md ion-md-share" name="share" role="img" aria-label="share"></ion-icon></div>
-                                      </div>
-                                                                            
-                                    </div>
-                                  </div>
+                                <div class="col-100" style="text-align: center;">
+                                <a href="home.html"><img src="assets/img/gst-logo2-3.png"></a>
                                 </div>
-                            <!-- Link to another page -->
-                            <div class="card demo-card-header-pic">
-                              <a href="blog-detail.html">
-                                  <div style="background-image:url(assets/img/news7.jpg);box-shadow: 0 1px 2px rgba(0,0,0,.3);" valign="bottom" class="card-header color-white no-border">
-                                  <span class="badge">SCI - TECH</span>
-                                  <span class="time"><ion-icon ios="ios-time" md="md-time" role="img" class="icon icon-md ion-md-time" aria-label="time"></ion-icon>06/09/2017</span>
-                                  </div>
-                                  </a>
-                                  <div class="card-content blog-content">
-                                    <div class="">
-                                      <div class="row">
-                                        <div class="col-80">
-                                            <p class="blog-short">Apple ‘HomePod’ speaker to take on Amazon, Google</p>
-                                        </div>
-                                        <div class="col-20"> <ion-icon class="bookmark icon icon-md ion-md-share" name="share" role="img" aria-label="share"></ion-icon></div>
-                                      </div>
-                                                                            
-                                    </div>
-                                  </div>
-                                </div>
-                            <!-- Link to another page --><div class="card demo-card-header-pic">
-                                <a href="blog-detail.html">
-                                  <div style="background-image:url(assets/img/news6.jpg);box-shadow: 0 1px 2px rgba(0,0,0,.3);" valign="bottom" class="card-header color-white no-border">
-                                  <span class="badge">SCI - TECH</span>
-                                  <span class="time"><ion-icon ios="ios-time" md="md-time" role="img" class="icon icon-md ion-md-time" aria-label="time"></ion-icon>06/09/2017</span>
-                                  </div>
-                                  </a>
-                                  <div class="card-content blog-content">
-                                    <div class="">
-                                      <div class="row">
-                                        <div class="col-80">
-                                            <p class="blog-short">Apple ‘HomePod’ speaker to take on Amazon, Google</p>
-                                        </div>
-                                        <div class="col-20"> <ion-icon class="bookmark icon icon-md ion-md-share" name="share" role="img" aria-label="share"></ion-icon></div>
-                                      </div>
-                                                                            
-                                    </div>
-                                  </div>
-                                </div>
-                            <!-- Link to another page --><div class="card demo-card-header-pic">
-                                   <a href="blog-detail.html">
-                                  <div style="background-image:url(assets/img/news5.jpg);box-shadow: 0 1px 2px rgba(0,0,0,.3);" valign="bottom" class="card-header color-white no-border">
-                                  <span class="badge">SCI - TECH</span>
-                                  <span class="time"><ion-icon ios="ios-time" md="md-time" role="img" class="icon icon-md ion-md-time" aria-label="time"></ion-icon>06/09/2017</span>
-                                  </div>
-                                  </a>
-                                  <div class="card-content blog-content">
-                                    <div class="">
-                                      <div class="row">
-                                        <div class="col-80">
-                                            <p class="blog-short">Apple ‘HomePod’ speaker to take on Amazon, Google</p>
-                                        </div>
-                                        <div class="col-20"> <ion-icon class="bookmark icon icon-md ion-md-share" name="share" role="img" aria-label="share"></ion-icon></div>
-                                      </div>
-                                                                            
-                                    </div>
-                                  </div>
-                                </div>
-                            <!-- Link to another page --><div class="card demo-card-header-pic">
-                              <a href="blog-detail.html">
-                                  <div style="background-image:url(assets/img/news4.jpg);box-shadow: 0 1px 2px rgba(0,0,0,.3);" valign="bottom" class="card-header color-white no-border">
-                                  <span class="badge">SCI - TECH</span>
-                                  <span class="time"><ion-icon ios="ios-time" md="md-time" role="img" class="icon icon-md ion-md-time" aria-label="time"></ion-icon>06/09/2017</span>
-                                  </div>
-                                  </a>
-                                  <div class="card-content blog-content">
-                                    <div class="">
-                                      <div class="row">
-                                        <div class="col-80">
-                                            <p class="blog-short">Apple ‘HomePod’ speaker to take on Amazon, Google</p>
-                                        </div>
-                                        <div class="col-20"> <ion-icon class="bookmark icon icon-md ion-md-share" name="share" role="img" aria-label="share"></ion-icon></div>
-                                      </div>
-                                                                            
-                                    </div>
-                                  </div>
-                                </div>
-                            <!-- Link to another page --><div class="card demo-card-header-pic">
-                              <a href="blog-detail.html">
-                                  <div style="background-image:url(assets/img/news3.jpg);box-shadow: 0 1px 2px rgba(0,0,0,.3);" valign="bottom" class="card-header color-white no-border">
-                                  <span class="badge">SCI - TECH</span>
-                                  <span class="time"><ion-icon ios="ios-time" md="md-time" role="img" class="icon icon-md ion-md-time" aria-label="time"></ion-icon>06/09/2017</span>
-                                  </div>
-                                  </a>
-                                  <div class="card-content blog-content">
-                                    <div class="">
-                                      <div class="row">
-                                        <div class="col-80">
-                                            <p class="blog-short">Apple ‘HomePod’ speaker to take on Amazon, Google</p>
-                                        </div>
-                                        <div class="col-20"> <ion-icon class="bookmark icon icon-md ion-md-share" name="share" role="img" aria-label="share"></ion-icon></div>
-                                      </div>
-                                                                            
-                                    </div>
-                                  </div>
-                                </div>
-                            <!-- Link to another page --><div class="card demo-card-header-pic">
-                              <a href="blog-detail.html">
-                                  <div style="background-image:url(assets/img/news2.jpg);box-shadow: 0 1px 2px rgba(0,0,0,.3);" valign="bottom" class="card-header color-white no-border">
-                                  <span class="badge">SCI - TECH</span>
-                                  <span class="time"><ion-icon ios="ios-time" md="md-time" role="img" class="icon icon-md ion-md-time" aria-label="time"></ion-icon>06/09/2017</span>
-                                  </div>
-                                  </a>
-                                  <div class="card-content blog-content">
-                                    <div class="">
-                                      <div class="row">
-                                        <div class="col-80">
-                                            <p class="blog-short">Apple ‘HomePod’ speaker to take on Amazon, Google</p>
-                                        </div>
-                                        <div class="col-20"> <ion-icon class="bookmark icon icon-md ion-md-share" name="share" role="img" aria-label="share"></ion-icon></div>
-                                      </div>
-                                                                            
-                                    </div>
-                                  </div>
-                                </div>
-                            <!-- Link to another page --><div class="card demo-card-header-pic">
-                              <a href="blog-detail.html">
-                                  <div style="background-image:url(assets/img/news1.jpg);box-shadow: 0 1px 2px rgba(0,0,0,.3);" valign="bottom" class="card-header color-white no-border">
-                                  <span class="badge">SCI - TECH</span>
-                                  <span class="time"><ion-icon ios="ios-time" md="md-time" role="img" class="icon icon-md ion-md-time" aria-label="time"></ion-icon>06/09/2017</span>
-                                  </div>
-                                </a>
-                                  <div class="card-content blog-content">
-                                    <div class="">
-                                      <div class="row">
-                                        <div class="col-80">
-                                            <p class="blog-short">Apple ‘HomePod’ speaker to take on Amazon, Google</p>
-                                        </div>
-                                        <div class="col-20"> <ion-icon class="bookmark icon icon-md ion-md-share" name="share" role="img" aria-label="share"></ion-icon></div>
-                                      </div>
-                                                                            
-                                    </div>
-                                  </div>
-                                </div>
+                                
                             
                         </div>
                     </div>

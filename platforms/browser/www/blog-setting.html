@@ -1,27 +1,19 @@
 <!-- We don't need a full layout in this file because this page will be parsed with Ajax. -->
 
-<!-- Views -->
-    <div class="views">
-        <!-- Your main view, should have "view-main" class -->
-        <div class="view view-main">
-            <!-- Top Navbar-->
-            <div class="navbar">
-            <div class="toolbar-background toolbar-background-md"></div>
-                <div class="navbar-inner">
-                <div class="left">
-                        <!--
-                          Right link contains only icon - additional "icon-only" class
-                          Additional "open-panel" class tells app to open panel when we click on this link
-                        -->
-                        <a href="#" class="link icon-only open-panel"><button ion-button="" menutoggle="" class="bar-buttons bar-buttons-md bar-button bar-button-md bar-button-default bar-button-default-md bar-button-menutoggle bar-button-menutoggle-md"><span class="button-inner">
-      <ion-icon name="menu" role="img" class="icon icon-md ion-md-menu" aria-label="menu"></ion-icon>
-    </span><div class="button-effect" style="transform: translate3d(-10px, -19px, 0px) scale(1); height: 64px; width: 64px; opacity: 0; transition: transform 273ms, opacity 191ms 82ms;"></div></button></a>
-                    </div>
-                    <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
-                    <div class="center sliding">Blog App</div>
-                    
-                </div>
-            </div>
+<!-- Top Navbar-->
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="left">
+            <a href="#" class="back link">
+                <button class="back-button bar-button bar-button-md back-button-md bar-button-default bar-button-default-md show-back-button" ion-button="bar-button"><span class="button-inner"><ion-icon class="back-button-icon icon icon-md back-button-icon-md ion-md-arrow-back" role="img" aria-label="arrow back"></ion-icon><span class="back-button-text back-button-text-md"></span></span><div class="button-effect"></div></button>
+            </a>
+        </div>
+        <div class="center sliding">Settings</div>
+        <div class="right">
+            <a href="#" class="link icon-only open-panel"><i class="icon icon-bars"></i></a>
+        </div>
+    </div>
+</div>
 
 <div class="pages">
     <div data-page="about" class="page">
@@ -59,6 +51,4 @@
                        
         </div>
     </div>
-</div>
-</div>
 </div>
